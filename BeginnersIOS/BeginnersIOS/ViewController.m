@@ -24,4 +24,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tappedClickMe:(id)sender {
+    self.lblInfo.text = self.txtText.text;
+}
 @end

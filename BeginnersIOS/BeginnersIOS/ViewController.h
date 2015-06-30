@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblInfo;
+@property (weak, nonatomic) IBOutlet UITextField *txtText;
+- (IBAction)tappedClickMe:(id)sender;
+
 
 @end
 
